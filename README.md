@@ -1,101 +1,59 @@
-#  Hello, I'm Khoubeib Bourbia
+# Hi, I'm Khoubeib Bourbia
 
- Master's student in Big Data, Analytics & Business Intelligence at Université Sorbonne Paris Nord  
- Passionate about Artificial Intelligence, NLP, and Data Engineering  
- Interested in building scalable AI systems and data-driven solutions  
+Master's student (M2) in **Big Data, Analytics & Business Intelligence** at Université Sorbonne Paris Nord, with 10 months of Data Science experience (RAG, NLP, machine learning) at a UK startup.
 
----
-
-##  About Me
-
-I am a Master’s student specialized in:
-- Natural Language Processing (NLP)
-- Machine Learning & LLMs
-- Distributed Systems & Data Engineering  
-
-I enjoy designing **end-to-end data pipelines**, from data ingestion to AI model deployment.
+I am looking for a **6-month final-year internship in Data Science & AI**, starting March 2027 (flexible start date).
 
 ---
 
-##  Experience
+## Experience
 
-###  AI Intern – Calgra Group Holdings
- Remote (UK) | 03/2025 – 08/2025  
+**Data Scientist (internship, then freelance) – Calgra Group Holdings**
+Edinburgh, UK (remote) · 03/2025 – 12/2025
+*Bachelor's final-year internship (03–06/2025), then freelance (07–12/2025)*
 
-- Built an ESG evaluation platform based on questionnaires  
-- Developed a **hybrid scoring engine (rules + LLMs)**  
-- Implemented semantic matching using embeddings (SentenceTransformers + pgvector)  
-- Full-stack deployment (FastAPI, React, PostgreSQL)  
+SustainScore AI, an ESG compliance assessment platform for UK businesses:
+- Built a regulatory knowledge base covering 5 sectors (around 80 UK regulations), structured into PostgreSQL through a Python ETL pipeline
+- RAG pipeline: semantic retrieval of the regulations relevant to each question (bge-large, pgvector), then clause extraction by a local LLM (Gemma 3 via Ollama)
+- Hybrid scoring (rules and LLM with JSON output: score, confidence, rationale) and human review of low-confidence scores in Label Studio
+- Scrum over 6 sprints, tasks tracked in Jira
 
----
-
-###  Business Development Intern – IT Grow
- Ariana, Tunisia | 07/2024 – 08/2024  
-
-- Developed a **lead scoring system** to prioritize client interactions  
-- Contributed to commercial proposals and partnerships  
-- Optimized internal workflows and resource allocation  
+**Business Development Intern – IT Grow**
+Ariana, Tunisia · 07/2024 – 08/2024
+- Designed a lead-scoring grid to prioritise sales prospecting
 
 ---
 
-##  Skills
+## Featured projects
 
-###  AI & Data Science
-- NLP, LLMs, Embeddings  
-- Machine Learning (Scikit-learn, TensorFlow, Keras)  
-- Data Analysis (Pandas, NumPy)  
-- Data Visualization (Power BI, DAX)  
-
-###  Backend & APIs
-- Python (FastAPI, Flask)  
-- REST APIs  
-
-###  Data Engineering & Big Data
-- PostgreSQL, MongoDB, pgvector  
-- Kafka, Elasticsearch, Kibana  
-- Docker  
-
-###  Programming
-Python, SQL, Java, R, Git, GitHub  
+| Project | What it does | Key result |
+|---|---|---|
+| [**Product Recall Risk Classification**](https://github.com/khoubaib30/rappelconso-risque) | Fine-tuned CamemBERT on 18,000+ French product recalls (multi-label, 7 risk families), served with FastAPI, CI/CD with GitHub Actions, deployed on Azure Container Apps | Macro F1 **0.90** vs 0.84 for a TF-IDF baseline (tested on 2026 recalls) |
+| [**Real-Time Blood Pressure Monitoring**](https://github.com/khoubaib30/blood_pressure_monitoring_system) | Streaming pipeline (Kafka, Elasticsearch, Kibana, Docker Compose) with an XGBoost model predicting hypertensive-crisis risk at 1h, 6h and 24h | MAE **46–50% lower** than a linear baseline (synthetic data, 5-fold CV) |
+| [**Customer Churn Prediction**](https://github.com/khoubaib30/churn_analysis_python) | Random Forest with SMOTE on the IBM Telco dataset, FastAPI prediction API | Targeting the top 20% highest-risk customers captures **50% of churners** |
 
 ---
 
-##  Projects
+## Skills
 
-###  HR Harmony – BI Dashboard
-- Analysis of 5000+ HR records  
-- ETL pipeline in Python  
-- PostgreSQL data modeling  
-- Power BI dashboards  
-
-**Tech:** Power BI, Python, PostgreSQL  
+- **Languages:** Python, SQL (PostgreSQL, Oracle, SQL Server), R
+- **AI & Machine Learning:** NLP, LLMs, RAG, embeddings, fine-tuning · Hugging Face, PyTorch, TensorFlow, Scikit-learn, XGBoost
+- **Data & Visualisation:** Pandas, NumPy, pgvector, Kafka, Elasticsearch · Power BI (DAX), Kibana, Seaborn
+- **Deployment & MLOps:** FastAPI, Docker, Azure, CI/CD (GitHub Actions), pytest, MLflow
+- **Tools & Methods:** Git, Jira, Agile Scrum, Excel
 
 ---
 
-###  Real-Time Medical Monitoring System
-- Real-time pipeline with Kafka  
-- Elasticsearch + Kibana visualization  
-- XGBoost model for risk prediction (1h, 6h, 24h)  
-- Docker deployment  
+## Education
 
-**Tech:** Kafka, Elasticsearch, Kibana, Flask, XGBoost, Docker  
+- **Master's in Big Data, Analytics and Business Intelligence** – Université Sorbonne Paris Nord (2025 – 2027)
+- **Bachelor of Science in Business Administration (BSBA)** – Tunis Business School (2021 – 2025), Business Analytics major, highest honours
 
----
-
-##  Languages
-
-- 🇫🇷 French: C1 (TCF Certified)  
-- 🇬🇧 English: Professional  
-- 🇹🇳 Arabic: Native  
+**Languages:** French (C1, TCF certified) · English (fluent) · Arabic (native)
 
 ---
 
-##  Contact
+## Contact
 
-- 📧 Email: bourbiakhoubaib2@gmail.com  
-- 🔗 LinkedIn: https://linkedin.com/in/khoubaib-bourbia  
-- 💻 GitHub: https://github.com/khoubaib30  
-
----
-
-⭐ *Feel free to explore my projects and connect with me!*
+- Email: bourbiakhoubeib@gmail.com
+- LinkedIn: [linkedin.com/in/khoubaib-bourbia](https://linkedin.com/in/khoubaib-bourbia)
